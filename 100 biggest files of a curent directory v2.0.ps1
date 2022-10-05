@@ -1,1 +1,0 @@
-Get-ChildItem C:\TEST -recurse | Sort-Object length -descending  | select-object -first 32 | ft directory,name,length -wrap –auto
